@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">BookStoreApp</string>
+
+    <!--Menu Items-->
+    <string name="dummy_data">Dummy Data</string>
+    <string name="delete_all_entries">Delete All</string>
+
+    <!--Editor & ListView Template-->
+    <string name="edit_book">New Book</string>
+    <string name="book_title">  Book Title  </string>
+    <string name="price">Price</string>
+    <string name="price_symbol">$</string>
+    <string name="quantity">Qty</string>
+    <string name="supplier">Supplier</string>
+    <string name="supplier_phone">Supplier\'s Phone</string>
+    <string name="empty_title">Where have all the books gone?</string>
+    <string name="empty_subtitle">Please add some.</string>
+    <string name="buy">Buy</string>
+
+    <!--Editor Template-->
+    <string name="empty"> </string>
+
+
+</resources>

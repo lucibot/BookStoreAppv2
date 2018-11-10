@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditorActivity"
+    android:layout_margin="4dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="@string/edit_book"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow
+            style="@style/table_row">
+            <ImageView style="@style/image_view_editor"
+                android:background="@android:drawable/ic_menu_info_details"/>
+            <EditText android:id="@+id/edit_book_title"
+                style="@style/editor_view"
+                android:textAllCaps="true"
+                android:hint="@string/book_title"/>
+        </TableRow>
+
+        <TableRow
+            style="@style/table_row">
+            <ImageView style="@style/image_view_editor"
+                android:background="@android:drawable/star_on"/>
+            <EditText android:id="@+id/edit_price"
+                style="@style/editor_view"
+                android:hint="@string/price"
+                android:inputType="number"/>
+        </TableRow>
+        <TableRow
+            style="@style/table_row">
+            <ImageView style="@style/image_view_editor"
+                android:background="@android:drawable/ic_input_add"/>
+            <EditText android:id="@+id/edit_quantity"
+                style="@style/editor_view"
+                android:hint="@string/quantity"/>
+        </TableRow>
+        <TableRow
+            style="@style/table_row">
+
+            <ImageView
+                style="@style/image_view_editor"
+                android:background="@android:drawable/ic_menu_preferences" />
+            <EditText android:id="@+id/edit_supplier"
+                style="@style/editor_view"
+                android:hint="@string/supplier"/>
+        </TableRow>
+        <TableRow
+            style="@style/table_row">
+            <ImageView style="@style/image_view_editor"
+                android:background="@android:drawable/stat_sys_phone_call_forward"/>
+            <EditText android:id="@+id/edit_supplier_phone"
+                style="@style/editor_view"
+                android:inputType="phone"
+                android:hint="@string/supplier_phone"/>
+        </TableRow>
+
+    </TableLayout>
+
+
+
+</LinearLayout>
